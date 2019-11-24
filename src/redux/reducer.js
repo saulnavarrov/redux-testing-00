@@ -26,7 +26,7 @@ function reducer(state = [], action) {
     // borra un elemento de la lista
     case 'BORRAR': {
       // Buscamos el item a borrar por su index
-      const index = state.findIndex(n => n.id === action.payload.idItems);
+      const index = state.findIndex(n => n.idItems === action.payload.idItems);
 
       // Borramos
       state.splice(index, 1);
