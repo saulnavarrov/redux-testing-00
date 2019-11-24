@@ -44,7 +44,7 @@ function reducer(state = [], action) {
     // alterna si ya fue marcado o no
     case 'ALTERNAR': {
       // Buscamos el item para cambiar la propiedad completado
-      const item = state.find(n => n.id === action.payload.idItems);
+      const item = state.find(n => n.idItems === action.payload.idItems);
 
       // invertimos el estado actual del item
       item.completado = !item.completado;
