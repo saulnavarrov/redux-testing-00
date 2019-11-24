@@ -1,0 +1,15 @@
+{
+  "name": "redux-testing-00",
+  "version": "0.0.0",
+  "description": "Probando redux puro sin ningun otro plugins",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "redux",
+    "webpack"
+  ],
+  "author": "Saul Navarrov >Sinavarrov@gmail.com",
+  "license": "MIT"
+}
