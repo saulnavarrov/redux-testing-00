@@ -1,5 +1,7 @@
-import { createStore } from 'redux'; // importo la libreria y llamo esa funcion en especifico
-import reducer from './reducer'; // importamos el reducer
+// importo la libreria y llamo esa funcion en especifico
+import { createStore } from 'redux';
+// importamos el reducer
+import reducer from './reducer'; 
 
 
 // Creamos la stores
