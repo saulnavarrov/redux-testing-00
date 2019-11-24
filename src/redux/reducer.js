@@ -5,7 +5,21 @@
 function reducer(state = [], action) {
   switch(action.type){
 
-    
+    // agrega un nuevo elemento a la lista
+    case 'AGREGAR': {
+
+    }
+
+    // borra un elemento de la lista
+    case 'BORRAR': {
+
+    }
+
+    // alterna si ya fue marcado o no
+    case 'ALTERNAR': {
+
+    }
+
     
     // Retornamos el stado normal
     default: 
